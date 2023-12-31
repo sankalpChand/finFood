@@ -1,15 +1,6 @@
 import streamlit as st 
 
 
-import appdirs as ad
-
-CACHE_DIR = ".cache"
-
-
-ad.user_cache_dir = lambda *args: CACHE_DIR
-
-
-Path(CACHE_DIR).mkdir(exist_ok=True)
 
 
 
