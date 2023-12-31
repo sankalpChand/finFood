@@ -8,7 +8,7 @@ import yfinance as yf
 
 def projectDescription():
     st.title("Welcome to FinFood! The Ultimate Stock App for Foodies!") #NEW
-    st.image("images/mcdCover.jpg",width = 700)
+    st.image("images/MCDcover.jpg",width = 700)
     st.header("Stock Data of the Most Popular Restaurant Chains!")
     st.write("Hello, welcome to FinFood! This app was curated with the purpose of delivering stock information for various popular food chains!")
     st.write("    ")
